@@ -1,0 +1,325 @@
+{
+ "n_items": 30,
+ "n_chunks": 10,
+ "retrieval": {
+  "A0_原问题Top3": {
+   "recall@1": 0.9333333333333333,
+   "recall@3": 0.9666666666666667,
+   "top1_sim": 0.6989566087722778
+  },
+  "A1_原问题Top6": {
+   "recall@6": 1.0,
+   "mrr@6": 0.9566666666666667
+  },
+  "A2_改写Top3": {
+   "recall@1": 0.9666666666666667,
+   "recall@3": 0.9666666666666667,
+   "top1_sim": 0.7160900831222534
+  },
+  "A3_改写Top6": {
+   "recall@6": 0.9666666666666667,
+   "mrr@6": 0.9666666666666667
+  }
+ },
+ "retrieval_stratified": {
+  "事实识别": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 5.0,
+   "ans_C": 5.0
+  },
+  "剂量": {
+   "n": 2,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 5.0,
+   "ans_C": 5.0
+  },
+  "发病规律": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 5.0,
+   "ans_C": 5.0
+  },
+  "口语诊断": {
+   "n": 4,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 4.25,
+   "ans_C": 4.25
+  },
+  "叶面肥": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 0.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 4.0,
+   "ans_C": 5.0
+  },
+  "后续管理": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 5.0,
+   "ans_C": 5.0
+  },
+  "基肥": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 3.0,
+   "ans_C": 2.0
+  },
+  "安全": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 5.0,
+   "ans_C": 5.0
+  },
+  "安全注意": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 1.0,
+   "ans_C": 1.0
+  },
+  "对比": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 5.0,
+   "ans_C": 5.0
+  },
+  "微量元素": {
+   "n": 1,
+   "A0_recall@3": 0.0,
+   "A2_recall@3": 0.0,
+   "A0_recall@1": 0.0,
+   "A2_recall@1": 0.0,
+   "ans_B": 1.0,
+   "ans_C": 1.0
+  },
+  "拌种": {
+   "n": 2,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 5.0,
+   "ans_C": 5.0
+  },
+  "播种": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 4.0,
+   "ans_C": 4.0
+  },
+  "施肥原则": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 2.0,
+   "ans_C": 2.0
+  },
+  "施药要点": {
+   "n": 2,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 4.0,
+   "ans_C": 3.5
+  },
+  "易感条件": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 5.0,
+   "ans_C": 5.0
+  },
+  "生态防治": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 4.0,
+   "ans_C": 4.0
+  },
+  "药剂更新": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 5.0,
+   "ans_C": 5.0
+  },
+  "药剂选择": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 3.0,
+   "ans_C": 5.0
+  },
+  "追肥时机": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 5.0,
+   "ans_C": 4.0
+  },
+  "间接危害": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 5.0,
+   "ans_C": 5.0
+  },
+  "防治": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 4.0,
+   "ans_C": 5.0
+  },
+  "防治指标": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 5.0,
+   "ans_C": 5.0
+  },
+  "防治时机": {
+   "n": 1,
+   "A0_recall@3": 1.0,
+   "A2_recall@3": 1.0,
+   "A0_recall@1": 1.0,
+   "A2_recall@1": 1.0,
+   "ans_B": 5.0,
+   "ans_C": 5.0
+  }
+ },
+ "answer": {
+  "baseline": {
+   "auto_score_mean": 2.3333333333333335,
+   "source_tag_rate": 0.0,
+   "fallback_rate": 0.0,
+   "num_coverage": 0.06578947368421052,
+   "unsupported_num_rate": 0.75,
+   "mean_len": 456.46666666666664,
+   "mean_time": 29.053333333333335
+  },
+  "naive": {
+   "auto_score_mean": 4.2,
+   "source_tag_rate": 1.0,
+   "fallback_rate": 0.06666666666666667,
+   "num_coverage": 0.6788220551378447,
+   "unsupported_num_rate": 0.5330246913580248,
+   "mean_len": 267.8333333333333,
+   "mean_time": 31.233333333333334
+  },
+  "optimized": {
+   "auto_score_mean": 4.233333333333333,
+   "source_tag_rate": 0.9666666666666667,
+   "fallback_rate": 0.06666666666666667,
+   "num_coverage": 0.7324561403508771,
+   "unsupported_num_rate": 0.5345035622813401,
+   "mean_len": 279.7,
+   "mean_time": 31.053333333333335
+  }
+ },
+ "score_check": {
+  "baseline": {
+   "reproduced": 2.3333333333333335,
+   "csv": 2.3333333333333335,
+   "match": true
+  },
+  "naive": {
+   "reproduced": 4.2,
+   "csv": 4.2,
+   "match": true
+  },
+  "optimized": {
+   "reproduced": 4.233333333333333,
+   "csv": 4.233333333333333,
+   "match": true
+  }
+ },
+ "wilcoxon": {
+  "baseline_vs_naive": {
+   "stat": 5.5,
+   "p": 1.3003305290676446e-05
+  },
+  "naive_vs_optimized": {
+   "stat": 12.5,
+   "p": 0.7920689965469446
+  },
+  "baseline_vs_optimized": {
+   "stat": 5.5,
+   "p": 1.937188897833428e-05
+  }
+ },
+ "rewrite_samples": [
+  {
+   "q": "小麦条锈病叶片上的夏孢子堆是什么样子？",
+   "rewritten": "小麦条锈病叶片上夏孢子堆的特征描述"
+  },
+  {
+   "q": "我家小麦叶子上出现黄色小条斑，是不是锈病？",
+   "rewritten": "我家小麦叶片上出现黄色条状斑点，是否为小麦锈病？"
+  },
+  {
+   "q": "小麦条锈病什么时候打药最合适？",
+   "rewritten": "小麦条锈病最佳喷药时间是什么时候？"
+  },
+  {
+   "q": "防治小麦条锈病一亩地用多少三唑酮？",
+   "rewritten": "一亩地防治小麦条锈病需要使用多少三唑酮？"
+  },
+  {
+   "q": "小麦条锈病拌种用什么药？",
+   "rewritten": "小麦条锈病种子处理使用哪种药物？"
+  }
+ ],
+ "rewrite_fail": 0
+}
